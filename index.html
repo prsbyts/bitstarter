@@ -61,6 +61,7 @@
 	</div><!-- container -->
       </div><!-- navbar-inner -->
     </div><!-- navbar -->
+
     <div class="container">
      <div class="row navigation">
       <div class="span2 logo">
@@ -109,14 +110,41 @@
 	  Marketing Section 2
 	</div>
       </div><!-- row section2 -->
-      <div class="row faq">
-	<div class="span12">
-	  FAQ
+      <div class="row-fluid faq">
+	<div class="span10 offset1">
+	  <h3>FAQ</h3>
+	  <div class="accordion" id="accordion2">
+	    <div class="accordion-group">
+	      <div class="accordion-heading">
+		<a class="accordion-toggle" data-toggle="#collapseOne"
+		   data-parent="#accordion2" href="#collapseOne">
+		  What does FAQ stand for?
+		</a>
+	      </div>
+	      <div id="collapseOne" class="accordion-body collapse">
+		<div class="accordion-inner">
+		  Frequently Asked Question(s).
+		</div>
+	      </div>
+	    </div><!-- accordion group -->
+	    <div class="accordion-group">
+	      <div class="accordion-heading">
+		<a class="accordion-toggle" data-toggle="collapse"
+		   data-parent="#accordion2" href="#collapseTwo">
+		  What's a Frequently Asked Question?
+		</a>
+	      </div>
+		<div id="collapseTwo" class="accordion-body collapse">
+		  <div class="accordion-inner">
+		    A question which is commonly asked by users.
+		  </div>
+		</div>
+	    </div><!-- accordion group -->
 	</div>
       </div><!-- row faq -->
-      <div class="row footer">
+      <div class="row-fluid footer">
 	<div class="span12">
-	  Footer
+	  <p>This work is licensed .... and the rest of the footer comes here.</p>
 	</div>
       </div><!-- row footer -->
     </div><!-- container -->
